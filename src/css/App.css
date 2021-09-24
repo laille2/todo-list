@@ -1,0 +1,25 @@
+:root {
+    --color-top-background:rgb(144, 238, 144);
+    --color-app-background:rgb(195, 238, 195);
+    --color-app-text:rgb(42, 0, 71);
+    --color-todo-list-background:rgb(211, 180, 123);
+}
+
+.App {
+    background-color: var(--color-app-background);
+    text-align: center;
+    color: var(--color-app-text);
+}
+
+.todo_list {
+    padding: 10px;
+    background-color: var(--color-todo-list-background);
+}
+
+#top_gradient {
+    background: linear-gradient(var(--color-top-background), var(--color-app-background));
+}
+
+#bottom_gradient {
+    background: linear-gradient(var(--color-app-background), var(--color-todo-list-background));
+}
